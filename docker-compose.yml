@@ -1,0 +1,14 @@
+---
+version: '3.7'
+
+services:
+  chatbot:
+    image: 
+    build: .
+    restart: unless-stopped
+    environment:
+      MATTERMOST_URL: 
+      MATTERMOST_TOKEN: 
+      OPENAI_API_KEY: 
+      PINCONE_API_KEY: 
+      OPENAI_MODEL_NAME: text-embedding-ada-002
